@@ -6,7 +6,7 @@ function IntroScnd() {
         <div className="greyBackground">
             <section id="IntroScnd">
                 <div className="container">
-                    <img className="introScndImg" src="images/security.png" alt=""/>
+                    <img className="introScndImg" src="images/security4.png" alt=""/>
                     <div className='introScndTxt'>
                         <h3 className="m40 bold"  data-aos="fade-up" data-aos-duration="1000">
                             MISSION & VISION</h3>
