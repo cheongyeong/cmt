@@ -1,0 +1,516 @@
+h1 span.forSmall{
+    font-size: 50px;
+}
+
+
+body.active{
+    background-color: #fff;
+    color: #222;
+}
+
+.forMobile{
+      
+    display: none;
+}
+
+.forWeb{
+    display: block;
+}
+
+
+
+
+/* mainContFrst */
+
+#mainContFrst{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 0;
+    box-sizing: border-box;
+    background-image: url(../assets/images/line.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 15% 45%;
+}
+
+.slogan span{
+    display: inline-block;
+}
+
+.slogan>h1{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sloganImg{
+    background-image: url(../assets/images/main.gif);
+    background-size: contain;
+    width: 60%;
+    padding-bottom: 38%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+.sloganImg>img{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* mainContScnd */
+
+#mainContScnd{
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 5vh;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 50vh;
+    display: flex;
+    justify-content:flex-end
+}
+
+
+
+#mainContScnd .imgSrc{
+    display: block;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #222;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-size: contain;
+ }
+
+.tabWrap{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: sticky;
+    top: 30%;
+    z-index: 1;
+}
+
+.tabWrap li{
+    list-style: none;
+    font-size: 20px;
+    color: #ffffff55;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3 ease-in-out;
+}
+
+.tabWrap li::before{
+    display: inline-block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff55;
+    margin-right: 15px;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+
+}
+
+.tabWrap li.active{
+    font-size: 30px;
+    font-weight: bold;
+    color: #287EE0;
+}
+.tabWrap li.active::before{
+    background-color: #287EE0;
+}
+
+
+.textWrap{
+    width: 28%;
+        z-index: 1;
+}
+
+.text{
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    right: 0;
+    z-index: 0;
+}
+
+.text>div{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mainScndSlideP{
+    font-weight: 300;
+}
+
+
+
+
+.moreBtn.wh{
+    text-align: center;
+}
+.moreBtn.wh>a{
+    display: block;
+    width: 100px;
+    height: 35px;
+    border: 1.5px solid hsl(0, 0%, 100%);
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.5;
+    border-radius: 5px;
+    line-height: 1.8;
+}
+
+.moreBtn.wh>a:hover{
+    opacity: 1;
+    border-radius: 0px;
+    transition: all 0.3s;
+}
+
+
+/* mainContThr */
+
+
+
+.thrBackground{
+    background-image: url(../assets/images/backgroudC.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+
+
+
+#mainContThr{
+    color: #222;
+    padding: 200px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thrService{
+    width: 47%;
+    display: flex;
+    height: 750px;
+}
+
+.thrService>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.thrTitle>h4{
+    color: #222;
+    font-weight: 400;
+}
+
+
+.thrServiceBox{
+    width: 350px;
+    height: 350px;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.thrService .thrServiceBox:hover{
+    background-color: #287EE0;
+    color:#fff;
+    border-radius: 60px 10px 60px 10px;
+
+}
+
+.thrServiceBox:hover>.moreBtn>a{
+    color: #fff;
+    opacity: 1;
+    border: 1.5px solid #fff;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.thrServiceBox h4{
+    font-weight: bold;
+}
+
+.thrServiceBox h5{
+    font-weight: 400;
+}
+
+.serviceIcon{
+    text-align: right;
+}
+.moreBtn{
+    text-align: center;
+}
+.moreBtn>a{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    border: 1.5px solid #222222;
+    color: #222222;
+    font-weight: bold;
+    opacity: 0.7;
+    border-radius: 5px;
+    line-height: 1.8;
+}
+
+
+
+
+
+/*  mainContFrth  */
+
+
+
+.whiteBackgroud{
+    background-color: #fff;
+}
+
+#mainContFrth{
+    text-align: center;
+    color: #222;
+    padding: 200px 0;
+    box-sizing: border-box;
+}
+
+#mainContFrth>h3{
+    font-weight: bold;
+}
+
+
+
+.flowContainer{
+    width:100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.flowContainer::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to right, hsl(0, 0%, 100%) 0%, #ffffffbf 51%, rgba(170,0,0,0) 100%);
+}
+
+.flowContainer::after{
+    content:'';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(170,0,0,0) 0%, #ffffffbf 51%, hsl(0, 0%, 100%) 100%);
+}
+
+.flowWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.flowImg.original {
+    animation: 80s linear infinite normal none running rollingleft1;
+} 
+.flowImg.clone {
+	animation: 80s linear infinite  rollingleft2;
+}
+
+
+
+.flowImg {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.flowImg>img {
+    margin-right: 15px;
+}
+
+.flowImg.stop{
+    animation-play-state: paused;
+   }
+
+
+@keyframes rollingleft1 {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-100%); }
+    50.01% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes rollingleft2 {
+    0% { transition: translateX(0); }
+    100% { transform: translateX(-200%); }
+}
+
+
+
+/* 반응형 462px */
+
+
+
+@media  (max-width:462px) {
+
+    .forMobile{
+      
+        display: block;
+    }
+
+    .forWeb{
+        display: none;
+    }
+
+    /* mainContFrst */
+
+    #mainContFrst{
+        background-image: url(../assets/images/main.gif);
+        background-size: contain;
+        flex-direction: column;
+        padding: 150px 20px;
+    }
+
+
+    .sloganImg{
+        background-image: none;
+        display: none;
+    }
+
+    h1 span.forSmall{
+        font-size: 20px;
+    }
+
+    .slogan h1{
+        text-align: center;
+    }
+
+    .slogan span {
+        display: none;
+    }
+
+    /* mainContScnd */
+
+    #mainContScnd{
+        max-width: 462px;
+        padding: 0 20px;
+        margin-top: 25vh;
+        display: block;
+    }
+
+    .imgWrap{
+        width: 0;
+    }
+
+    .textWrap{
+        width: 100%;
+        margin-top: 250px;
+    }
+
+    
+
+    #mainContScnd>.imgSrc{
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+        top: 25%;
+        left: 0;
+        transform: translate(0);
+    }
+
+    /* mainContThr */
+
+    .thrBackground{
+        background-image: none;
+    }
+
+    #mainContThr{
+        color: #222;
+        padding: 50px 0px;
+        flex-direction: column;
+
+    }
+
+    .thrTitle{
+        text-align: center;
+    }
+
+    .thrTitle>h2{
+        margin-bottom: 10px;
+    }
+
+
+    .thrServiceBox{
+        margin: 20px;
+        width: 100%;
+    }
+
+    .thrServiceBox h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+    /*  mainContFrth  */
+
+    .flow-wrap>img{
+        height: 100px;
+    }
+
+    #mainContFrth{
+        padding: 150px 0;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+

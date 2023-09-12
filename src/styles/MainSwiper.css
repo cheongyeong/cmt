@@ -1,0 +1,57 @@
+    /* mainContThr */
+
+
+.thrServiceMobile .pagination .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    width: auto;
+}
+
+.thrServiceMobile .swiper-pagination-bullet-active{
+    width: 20px;
+    height: 8px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.thrServiceMobile .swiper-slide-active>.thrServiceBox{
+    background-color: #287EE0;
+    color:#fff;
+    border-radius: 60px 10px 60px 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.thrServiceBox:hover{
+    background-color: #ebd9d9;
+    color:#222;
+    border-radius: 10px;
+}
+
+.thrServiceMobile .swiper-slide-active>.thrServiceBox>.moreBtn>a{
+    color: #fff;
+    opacity: 1;
+    border: 1.5px solid #fff;
+}
+
+
+
+@media (max-width:462px) {
+    .swiper.thrServiceMobile{
+        width: 100%;
+        max-width: 462px;
+        display: block;
+        width: 400px;
+        position: relative;
+        margin-top: 70px;
+    }
+
+    .thrServiceMobile .swiper-slide{
+        height: 400px;
+    }
+
+    .thrServiceBox{
+        margin: 0;
+    }
+
+}
+    
+
+

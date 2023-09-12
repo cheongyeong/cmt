@@ -1,0 +1,195 @@
+#IntroFfth{
+    max-width: 1920px;
+    padding: 200px 0;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+}
+
+
+
+.ffthText{
+    text-align: center;
+}
+
+.introSlide.swiper {
+    width: 100%;
+    height: 600px;
+  }
+  .introSlide .swiper-wrapper{
+      align-items:end;
+      bottom: 100px;
+  }
+
+  .introSlide .swiper-slide{
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    font-size: 18px;
+    background: #ECECEC;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    padding: 50px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-right: 20PX;
+  }
+
+  .introSlide .swiper-slide-active.historyBox {
+    height: 450px;
+    background: #287EE0;
+    border-radius: 60px 10px 60px 10px;
+    color: #fff;
+  }
+
+
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #287EE0;
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: #287EE0;
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+
+
+
+
+  .introSlide.swiper .swiper-pagination{
+    width: 75%;
+    top: 95%;
+    left: 200px;
+  }
+
+  .introSlide.swiper .autoplay-progress{
+    right: 200px;
+    bottom: 5px;
+  }
+  .introSlide.swiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background: #287EE0;
+
+  }
+
+
+
+.year {
+    text-align: right;
+ }
+
+ .introSlide .swiper-slide-active .historyBoxLine{
+    background-color: #ffffff55;
+ }
+
+ .historyBoxLine{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #22222255;
+    margin: 20px 0;
+}
+
+.historyBox h4{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.historyBox{
+    color: #22222277;
+}
+
+@media (max-width: 462px) {
+
+    #IntroFfth{
+        padding: 100px 20px;
+        margin-bottom: 0px;
+    }
+
+
+    .introSlide.swiper {
+        height: 450px;
+    }
+    .introSlide .swiper-wrapper{
+        bottom: 60px;
+    }
+    .introSlide .swiper-slide{
+        max-width: 100%;
+        text-align: center;
+        height: 300px;
+        font-size: 18px;
+        background: #ECECEC;
+        border-radius: 10px;
+        transition: all 0.4s ease-in-out;
+        padding: 50px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        margin-right: 0;
+      }
+
+    
+  .introSlide.swiper .swiper-pagination{
+    width: 20%;
+    left: 0px;
+    top: 95%;
+  }
+
+  .introSlide.swiper .autoplay-progress{
+    right: 220px;
+    bottom: 0px;
+  }
+  .introSlide.swiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background: #287EE0;
+
+  }
+
+  .introSlide .swiper-slide.historyBox {
+    margin: 0;
+    padding: 30px;
+  }
+  .introSlide .swiper-slide-active.historyBox{
+    width: 300px;
+    height: 380px;
+
+  }
+
+  .ffthText.m70{
+    margin-bottom: 50px;
+  }
+
+
+
+    .autoplay-progress {
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+        z-index: 10;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #287EE0;
+    }
+
+}

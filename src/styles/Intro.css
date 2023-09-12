@@ -1,0 +1,193 @@
+/* IntroFrst.jsx */
+
+.introFrstBackImg {
+    background-image: url(../assets/images/introFrstBackImg.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+    
+    #IntroFrst {
+    text-align: center;
+    color: #eee;
+    padding: 200px 0;
+    box-sizing: border-box;
+    position: relative;
+    }
+    
+    #IntroFrst>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    }
+    
+    /* IntroScnd.jsx */
+    
+    
+    .introScndImg {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+    }
+    
+    #IntroScnd {
+    padding: 300px 0;
+    height: auto;
+    }
+    
+    #IntroScnd .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    #IntroScnd h4{
+    font-weight: 300;
+    }
+    
+    .introScndTxt{
+        width: 45%;
+    }
+
+    
+    
+    /* IntroThrd.jsx */
+    
+
+    .introThrdBack {
+        background-size: 40%;
+        background-image: url(../assets/images/backgroudC_bk.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+        
+    #IntroThrd h4 {
+    font-weight: 300;
+    }
+    
+    
+    /* IntroFrth.jsx */
+    
+    #IntroFrth {
+        text-align: center;
+        padding-top:250px;
+        box-sizing: border-box;
+        height: auto;    
+    }
+    
+    
+    .introFrthBack {
+        width: 100%;
+        background-image: url(../assets/images/introFrthBack.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-bottom: 55%;
+    }
+    
+
+
+    /*IntroFfth*/
+
+    
+    
+    @media (max-width: 462px) {
+
+    /* IntroFrst */
+
+    #IntroFrst {
+        height: 90vh;;
+    }
+
+    #IntroFrst .bold{
+        font-weight: bold;
+    }
+    
+    
+    /* IntroScnd */
+    #IntroScnd {
+        padding: 200px 20px;
+        text-align: center;
+    }
+
+    .m40{
+        margin-bottom: 20px;
+    }
+    
+    
+    #IntroScnd .container {
+    display: flex;
+    flex-direction: column; /* 이를 통해 주 축이 세로 방향이 됩니다 */
+    justify-content: center; /* 주 축에서의 중앙 정렬 */
+    align-items: center; /* 교차 축에서의 중앙 정렬 */
+    height: 100%; /* 컨테이너의 높이를 지정해야 합니다. 필요에 따라 조절하세요 */
+    }
+    
+    
+    .introScndImg {
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px; /* 이미지 아래에 조금의 공간을 줍니다. */
+    }
+    .introScndTxt{
+        width: 100%;
+    }
+
+    #IntroScnd .bold{
+        font-weight: bold;
+    }
+
+    
+    /*IntroThrd*/
+    
+    #IntroThrd {
+    padding: 100px 20px;
+    margin-top: 50px;
+
+    }
+    
+    .introThrdBack {
+    background-position: top right; 
+    background-size: 50%; 
+    }
+
+
+    #IntroThrd h3,
+    #IntroThrd h2 {
+    font-weight: bold;
+
+    }
+
+    
+    /* IntroFrth */
+    
+    #IntroFrth {
+    padding: 100px 20px 50px;
+
+    }
+
+    #IntroFrth h3{
+        font-weight: bold;
+    }
+    
+    
+    .introFrthBack {
+    background-size: cover;
+    margin-bottom: 100px;
+    }
+    
+    /* IntroFfth */
+
+    #IntroFfth h3{
+        font-weight: bold;
+    }
+    
+    
+
+    
+    }

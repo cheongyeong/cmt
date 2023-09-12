@@ -1,0 +1,177 @@
+footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 200px 0 50px;
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+footer .forWeb{
+    display: inline-block;
+}
+
+.customerBtn{
+    display: flex;
+}
+.customerBtn>a{
+    display: block;
+    width: 300px;
+    color: #fff;
+    border: 1.5px solid #fff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    margin-right: 15px;
+    position:relative;
+
+}
+
+.customerBtn>a:hover{
+    border: 1.5px solid #287EE0;
+    color: #287EE0;
+    transition:  0.3s ease-in-out;
+}
+
+
+
+
+
+.footerWrap{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo>img{
+    width: 190px;
+}
+
+.footerInfo>p{
+    color: #ffffff55;
+    font-weight: 300;
+    line-height: 2;
+}
+
+footer .bold{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+.footerInfo>div{
+    display: flex;
+}
+
+.footerInfo a{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #ffffff55;
+}
+
+.footerInfo>div>div:nth-child(1){
+    position: relative;
+}
+.footerInfo>div>div:nth-child(1):after{
+    content: '|';
+    color: #ffffff55;
+    margin: 0 25px;
+}
+
+.footerInfo a:hover{
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+footer>p{
+    color: #ffffff33;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+
+
+
+@media  (max-width:462px) {
+    footer{
+        padding: 80px 20px 50px;
+    }
+    footer .forWeb {
+        display: none;
+    }
+
+    .footerLogo{
+        text-align: center;
+    }
+
+    .footerLogo>img{
+        width: 110px;
+    }
+
+    .footerWrap{
+        margin: 0 auto;
+        flex-direction: column;
+
+    }
+
+    .customerBtn{
+        text-align: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .customerBtn>a{
+        width: 200px;
+        font-size: 15px;
+        height: 50px;
+        line-height: 50px;
+        margin-right: 0px;
+    }
+
+    .customerBtn>a:nth-child(1){
+        margin-right: 10px;
+    }
+
+    .footerWrap .m100{
+        margin-bottom: 50px;
+    }
+
+    .footerInfo{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .footerInfo a{
+        font-size: 12px;
+    } 
+
+    .footerInfo>div{
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .footerLine{
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #ffffff22;
+        margin-bottom: 30px;
+    }
+
+    .footerInfo .m70{
+        margin-bottom: 30px ;
+    }
+
+    
+    footer>p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+
+}
